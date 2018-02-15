@@ -22,5 +22,5 @@ plt.xticks(year,['2011 AD','2012 AD','2013 AD','2014 AD','2015 AD'])
 
 
 plt.xscale('log')
-plt.grid(True)
+plt.grid(False)
 plt.show()

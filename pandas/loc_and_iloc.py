@@ -11,6 +11,7 @@ print(sample.loc[[1,2,3]])
 #row and column loc
 print("\n ROW AND COLUMN LOC")
 print(sample.loc[[1,2,3],['Open','Close']])
+print("finish")
 
 #loc and iloc are similar loc takes the value of the dataframe
 #where as iloc takes index
