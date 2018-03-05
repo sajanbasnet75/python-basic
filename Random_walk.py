@@ -5,10 +5,11 @@
 #plot it in a graph
 #simulate multiple walks
 import numpy as np
-import matplotlib.pyplot as plt 
+import matplotlib.pyplot as plt
+plt.style.use('ggplot')
 all_walks=[]
 np.random.seed(123)
-for i in range(500):
+for i in range(100):
     random_walk=[0]
     for x in range(100):
         step=random_walk[-1]

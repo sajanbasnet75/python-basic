@@ -10,6 +10,6 @@ print(sample1)
 #to read specific rows
 dup_sample2=pd.read_csv("C:/Users/Sajan PC/Desktop/python-basic/FB.csv",index_col=0)
 sample1=dup_sample2[0:3] # 0 to 2 rows will be read
-print(sample1)
+#print(sample1)
 
 
