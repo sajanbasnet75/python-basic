@@ -4,6 +4,7 @@
 #if dice=6 roll dice again and step=outcome of rolled dice
 #plot it in a graph
 #simulate multiple walks
+import flake8 
 import numpy as np
 import matplotlib.pyplot as plt 
 all_walks=[]
